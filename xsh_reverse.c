@@ -38,11 +38,6 @@ command	xsh_reverse(ushort stdout, ushort stdin, ushort stderr, ushort nargs, ch
 
 /* loop through the argument printing each as it is displayed */ 
 
-	/*for (i = 1; i < nargs; i++ ) 
-	{	 
-		fprintf(stdout, "%s", args[i]); 		 
-	} */
-	
 	i = strlen (args[1]);  
 
 	strcpy (yolo, args[1]); 
@@ -58,4 +53,3 @@ command	xsh_reverse(ushort stdout, ushort stdin, ushort stderr, ushort nargs, ch
 	/* there were no error so, return OK */
 	return OK; 
 }
-
